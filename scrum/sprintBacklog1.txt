@@ -1,0 +1,49 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 1 Oct 20-Oct 26, 2019
+# Sprint 1 Backlog UserStories go below
+--------------------------------------------------------------------------
+TYPE     : BUG 0.01 : qinlang3 : STATUS : Complete
+NAME     : Configure and use system
+OWNER    :  Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL :  1 hour
+ISSUE    : Member 1 
+- demonstrates that they have added, committed and pushed members.txt. 
+- demonstrates that they can run OthelloControllerHumanVSHuman on their dev platform
+- demonstrates that they can run MVCApplication on their dev platform
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 0.02 : UTORID : huan1323  STATUS : Complete
+NAME     : Configure and use system
+OWNER    : Hancheng Huang
+PRIORITY : 1
+ESTIMATE : 2 hours   ACTUAL :  2 hours
+ISSUE    : Member 2 
+- demonstrates that they have added, committed and pushed members.txt. 
+- demonstrates that they can run OthelloControllerHumanVSHuman on their dev platform
+- demonstrates that they can run MVCApplication on their dev platform
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 0.03 : UTORID : xiaoxiya STATUS : Complete
+NAME     : Configure and use system
+OWNER    : Xiyao Xiao
+PRIORITY : (1,2,3)
+ESTIMATE : 1 hour    ACTUAL :  1 hour
+ISSUE    : Member 3
+- demonstrates that they have added, committed and pushed members.txt. 
+- demonstrates that they can run OthelloControllerHumanVSHuman on their dev platform
+- demonstrates that they can run MVCApplication on their dev platform
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 0.04 : UTORID : chenq118 STATUS : Complete
+NAME     : Configure and use system
+OWNER    : Qinhang Chen
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  1 hour
+ISSUE    : Member 4
+- demonstrates that they have added, committed and pushed members.txt.
+- demonstrates that they can run OthelloControllerHumanVSHuman on their dev platform
+- demonstrates that they can run MVCApplication on their dev platform

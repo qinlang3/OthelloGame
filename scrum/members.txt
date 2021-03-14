@@ -1,0 +1,6 @@
+=======
+Member1 name: Lang Qin        email: kevinlang.qin@mail.utoronto.ca     utorid: qinlang3
+Member2 name: Hancheng Huang  email:  robin.huang@mail.utoronto.ca      utorid: huan1323
+Member3 name: Xiyao Xiao      email: xiyao.xiao@mail.utoronto.ca        utorid: xiaoxiya
+Member4 name: Qinhang Chen    email: qinhang.chen@mail.utoronto.ca      utorid: chenq118
+Coach name: Veerpal 	      email: v.brar@mail.utoronto.ca

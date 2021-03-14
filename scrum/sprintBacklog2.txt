@@ -1,0 +1,116 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 2 Oct 27-Nov 02, 2019
+# Sprint 2 Backlog UserStories go below
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.01 : qinlang3 : STATUS : Complete
+NAME     : OthelloGUI Click Registration
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 day    ACTUAL :  4 hours
+ISSUE    : User can now click on an 8x8 grid of buttons used by the 
+OthelloApplication. At this stage, a click results in a print out of 
+the (row,col) that the user clicked.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.011 : qinlang3 : STATUS : Complete
+NAME     : OthelloGUI Buttons Active, Console View
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 day    ACTUAL :  4 hours
+ISSUE    : The users can now use the OthelloGUI created in US1.01 
+for Human vs Human play. Now when the user clicks a button, the resulting
+board is printed on the console. This basically replaces the keyboard
+in the old HumanVSHuman game, but the output is still on the console.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.012 : qinlang3 : STATUS : Complete
+NAME     : OthelloGUI 
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  1 hour
+ISSUE    : The users can now use the OthelloGUI created in US1.011
+for Human vs Human play. Now when the user clicks a button, the resulting
+board is printed on the console. 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.02 : qinlang3 : STATUS : Complete
+NAME     : Othello Board Human VS Human
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 2 days    ACTUAL : 1 day
+ISSUE    : The users can now use the OthelloGUI created in US1.012
+for Human vs Human play. The grid buttons simply show X and O text
+labels for the buttons. There is no longer a console display as in 1.012.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1.021 : UTORID : huan1323  STATUS : Complete
+NAME     : Check Architecture
+OWNER    : Hancheng Huang
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  1 hour
+ISSUE    : If your code is not MVC right now, fix it to MVC. Pay the price
+now to create a good architecture, rather than clean up a lot of code later.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.03 : UTORID : huan1323  STATUS : Complete
+NAME     : Whos Next
+OWNER    : Hancheng Huang
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  1 hour
+ISSUE    : When users play HumanVSHuman, the player that moves next is on display, 
+correctly showing the token of the next player to make a move.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.04 : UTORID : huan1323  STATUS : Complete
+NAME     : Token Counter
+OWNER    : Hancheng Huang
+PRIORITY : 1
+ESTIMATE : 1 hour  ACTUAL :  1 hour
+ISSUE    : When user play, the count for each player is on display. 
+This count shows the 
+current number of P1 tokens and P2 tokens on the board.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.05 : UTORID : STATUS : Complete
+NAME     : Who Won
+OWNER    : Xiyao Xiao
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL :  2 hour
+ISSUE    : When users play, the current status of the game is on display, showing the token
+of the winner of the game.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.06 : qinlang3 : STATUS : Complete
+NAME     : Change tokens to Images
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  2 hour
+ISSUE    : When users are playing and the board is on display, 
+instead of displaying X and O as players, the users see 
+appropriate black/white tokens.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1.061 : qinlang3 : STATUS : Complete
+NAME     : fix former class interface
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  5 hour
+ISSUE    : Update and fix old classes interface to fit for 
+the change of the "X/O" to image.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.07 : chenq118 : STATUS : Completed
+NAME     : Opponent Chooser GUI Selection
+OWNER    : Qinhang Chen
+PRIORITY : 1
+ESTIMATE : 2 days    ACTUAL :  1 week
+ISSUE    : When users are playing, they see a GUI which allows the user to
+choose whether to play HumanVSHuman, HumanVSGreedy, HumanVSRandom.
+This user story involves
+just providing the gui for choice. After choosing, log the choice to
+the console, the game actually
+plays HumanVSHuman for now. The user should be able to switch opponents
+at any time during game play.

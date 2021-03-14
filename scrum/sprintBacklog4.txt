@@ -1,0 +1,240 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate sprintBacklogN.txt after the 
+# Sprint Planning Meeting.
+
+# Sprint 4 Nov 10-Nov 16, 2019
+# Sprint 4 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1.0612 : qinlang3 : STATUS :Complete
+NAME     : Polish the gui interface
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL :  1 hour
+ISSUE: Modify the former grid pane to have a better visualization.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.071 : qinlang3 : STATUS :  Complete
+NAME     : Opponent Chooser GUI Display
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL :  1 day
+ISSUE    : An extension to Opponent Chooser, the current player types
+are on display, so for example, 
+P1: Human  P2: Greedy 
+P1: Random P2: Human
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.08 : qinlang3 : STATUS : Complete
+NAME     : Opponent Chooser Implementation
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 day      ACTUAL : 1 day 
+ISSUE    : An extension to Opponent Chooser, we implement the users choice
+of opponent, so the Human can actually play the select opponent. Reminder:
+the user should be able to switch opponents at any time during game play.
+THe current game continues with the new opponent.
+
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1.08 : qinlang3 : STATUS : Complete
+NAME     : Switch opponent bug
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL : 1 hour
+ISSUE    : Fix a bug that when switch the white token to Random or Greedy, the white tokens does
+not move.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.10 : UTORID : huan1323 STATUS : Complete
+NAME     : AI Hint
+OWNER    : Hancheng Huang
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL :  4 hours
+ISSUE    : When the user is playing, the current mover can select a gui
+component (click a button etc) and a hint will display. For this user story
+just display the (row, col) of the hint.
+
+NOTE: Add some other user stories (1.101, 1.102, ...) which improve on this,
+For example: 
+1) Instead of displaying the (row,col) how about highlighting the position
+on the board.
+
+2) User can select a menu item/checkbox etc. to have, for example, the greedy hint highlighted
+on the board at all times. 
+
+3) As in 2, but a random hint
+...
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.101 : UTORID : huan1323 STATUS : Complete
+NAME     : AI Hint
+OWNER    : Hancheng Huang
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL :  4 hours
+ISSUE    : When the user is playing, the current mover can select a gui
+component (click a button etc) and a hint will display. For this user story
+just display the (row, col) of the hint.
+
+1) Instead of displaying the (row,col) how about highlighting the position
+on the board.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.102 : UTORID : huan1323 STATUS : Complete
+NAME     : AI Hint
+OWNER    : Hancheng Huang
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL :  4 hours
+ISSUE    : When the user is playing, the current mover can select a gui
+component (click a button etc) and a hint will display. For this user story
+just display the (row, col) of the hint.
+
+NOTE: Add some other user stories (1.101, 1.102, ...) which improve on this,
+For example: .
+
+2) User can select a menu item/checkbox etc. to have, for example, the greedy hint highlighted
+on the board at all times. 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.103 : UTORID : huan1323 STATUS: Complete
+NAME     : AI Hint
+OWNER    : Hancheng Huang
+PRIORITY : 1
+ESTIMATE : 4 hours    ACTUAL :  4 hours
+ISSUE    : When the user is playing, the current mover can select a gui
+component (click a button etc) and a hint will display. For this user story
+just display the (row, col) of the hint.
+
+NOTE: Add some other user stories (1.101, 1.102, ...) which improve on this,
+For example: 
+2) User can select a menu item/checkbox etc. to have, for example, the greedy hint highlighted
+on the board at all times. 
+
+3) As in 2, but a random hint
+...
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.11 : UTORID : STATUS : Complete
+NAME     : Restart
+OWNER    : xiao xiyao
+PRIORITY : (1,2,3)
+ESTIMATE : 4 hours    ACTUAL :  5 hours
+ISSUE    : When a user is playing, they see a button etc. which allows them
+to restart the game. 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.14 : UTORID : STATUS :complete
+NAME     : Available moves
+OWNER    : xiyao xiao
+PRIORITY : (1,2,3)
+ESTIMATE : 2 hours    ACTUAL : 2 hours
+ISSUE    : When a user is playing, they see the positions that they can
+move highlighted vs the positions they can't move.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.15 : UTORID : STATUS : Completed
+NAME     : Better strategy
+OWNER    : Xiyao xiao
+PRIORITY : (1,2,3)
+ESTIMATE : 2 hours    ACTUAL : 5 hours 
+ISSUE    : A user can play the following, improved strategy:
+Choose a corner if available,
+otherwise choose a side if available, otherwise choose a space that
+maximizes the players presence in the middle 4 by 4 square of the board,
+otherwise choose the location maximizing the movers presence on the board. 
+------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1.17 : chenq118 : STATUS : InProgress,Complete
+NAME     : Use Visitor for Othello board
+OWNER    : Qinhang Chen
+PRIORITY : 1
+ESTIMATE : 2 hours   ACTUAL :
+ISSUE    : There is a lot of replicated code in Othello and OthelloBoard, all of
+which visits the board in one of a few different ways. Implement the
+visitor design pattern on the OthelloBoard and rewrite code using othello
+and othello board to now create visitors and use them as appropriate.
+.
+NOTE: Some private methods could be removed as a result of this.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1.99 : UTORID : huan1323 STATUS : Complete 
+NAME     : Refomat the OthelloGameBoard
+OWNER    : Hancheng Hunag
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  1 hour
+ISSUE    : The design pattern of the grids is confused. The way we change 
+the buttons' images is set the index in the code. This makes we need to 
+change a lot for add a new button, so we make the buttons to the attribute
+of the grid classes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.17 : qinlang3 : STATUS : Complete 
+NAME     : Improve Button Handler
+OWNER    : Lang Qin
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  1 hour
+ISSUE    : Change whole one handler into different specific handlers which
+ handle specific buttons.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.09 : UTORID : chenq118 : Completed
+NAME     : Othello Timer Fixed Time
+OWNER    : Qinhang Chen
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 1 hour
+ISSUE    : When users play, they see a chess like timer for the othello game.
+For this user story, the time is fixed to 5 minutes/player.
+After a player makes a move the timer switches off for the player and on for the next mover.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.091 : chenq118 : STATUS : Complete
+NAME     : Othello Timer User Specified Time
+OWNER    : Qinhang Chen
+PRIORITY : 1
+ESTIMATE : 1 day   ACTUAL :1 day
+ISSUE    : When users play, they see a chess like timer for the othello game.
+For this user story, the user is allowed to specify the time for each user.
+After a player makes a move the timer switches off for the player and on for the next mover.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.092 : chenq118 : STATUS : Complete
+NAME     : Othello Time Setting Pane
+OWNER    : Qinhang Chen
+PRIORITY : 1
+ESTIMATE : 2 hour  ACTUAL :1 day
+ISSUE    : When the user start the game, the users are allow to set the time for the game.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1.991 : UTORID :chneq118 STATUS : Complete
+NAME     : Refomat the InfoGrid
+OWNER    : Qinhang Chen
+PRIORITY : 1
+ESTIMATE : 1 hour   ACTUAL :  1 hour
+ISSUE    : The design in the class was bad, we add setter/getter for the attributes.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.12 : UTORID :chenq118 huan1323 STATUS : Complete
+NAME     : Undo
+OWNER    : Qinhang Chen, Hancheng Hunag
+PRIORITY : 2
+ESTIMATE : 1 hour    ACTUAL :2 hours
+ISSUE    : A user has the ability to undo the last move or moves.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 9.99 : UTORID :chenq118 STATUS : Complete
+NAME     : Architecture Document
+OWNER    : Qinhang chen
+PRIORITY : 3
+ESTIMATE : 2 min    ACTUAL : 1min
+ISSUE    : Complete architecture.txt outlining any interesting features about
+your design. You should outline which design patterns you used where.
