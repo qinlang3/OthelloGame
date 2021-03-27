@@ -1,4 +1,5 @@
 # OthelloGame
+![1](https://user-images.githubusercontent.com/77714062/112713022-d4a71a80-8f0d-11eb-9e8f-38a898853ca5.png)
 ## How to run: 
 main: /src/ca/utoronto/utm/othello/viewcontroller/OthelloApplication.java
 ## Instruction:
