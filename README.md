@@ -9,4 +9,4 @@ main: /src/ca/utoronto/utm/othello/viewcontroller/OthelloApplication.java
 - Player can click on "Undo" to undo previous move.
 - If timer is up and the player has not made any move. The player will lose. If the player (or computer) cannot make any legal moves, player (or computer) will lose.
 
-c = j;
+
