@@ -8,3 +8,5 @@ main: /src/ca/utoronto/utm/othello/viewcontroller/OthelloApplication.java
 - Black goes first. Circles with dashed borders indicate the position where player can put his/her token. Player can click on "Hint" to display suggestion move based on different strategies.
 - Player can click on "Undo" to undo previous move.
 - If timer is up and the player has not made any move. The player will lose. If the player (or computer) cannot make any legal moves, player (or computer) will lose.
+
+c = j;
